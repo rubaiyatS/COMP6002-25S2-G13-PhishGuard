@@ -1,0 +1,20 @@
+{
+  "samples": [
+    {
+      "label": "phishing",
+      "url": "http://example-login.com/verify-account"
+    },
+    {
+      "label": "phishing",
+      "url": "http://192.0.2.1/login.php"
+    },
+    {
+      "label": "safe",
+      "url": "https://www.curtin.edu.au/"
+    },
+    {
+      "label": "safe",
+      "url": "https://www.abc.net.au/news/"
+    }
+  ]
+}

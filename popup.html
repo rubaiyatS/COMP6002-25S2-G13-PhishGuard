@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PhishGuard</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h2>PhishGuard</h2>
+  <div class="section">
+    <label for="urlInput">Enter URL to scan:</label>
+    <input id="urlInput" type="text" placeholder="https://example.com">
+    <button id="scanBtn">Scan</button>
+  </div>
+
+  <div class="section">
+    <button id="scanCurrentBtn">Scan Current Tab</button>
+  </div>
+
+  <div class="section">
+    <div id="result" class="result">Awaiting scan...</div>
+  </div>
+
+  <div class="section">
+    <label class="toggle">
+      <input type="checkbox" id="toggleBanner">
+      <span>Show warning banner on page (simulation)</span>
+    </label>
+  </div>
+
+  <div class="section">
+    <details>
+      <summary>View seeded test URLs</summary>
+      <ul id="testUrlList"></ul>
+    </details>
+  </div>
+
+  <footer>
+    <small>Week 4 Simulation • No real ML yet</small>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
